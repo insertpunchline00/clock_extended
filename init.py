@@ -52,13 +52,13 @@ while True:
     #temperature="50  " #for tests
 
 
-    #Displays.display_clock(hour,minute,1.0,colorcycle_clock,16) #hour
-    #Displays.display_temperature(temperature,weather_symbol,1.0)
+    Displays.display_clock(hour,minute,1.0,colorcycle_clock,16) #hour
+    Displays.display_temperature(temperature,weather_symbol,1.0)
     #Displays.display_timetable(times_magirus,times_koenigs,1)
 
 
 
-    Displays.display_image('Ka.png',1)
+    #Displays.display_image('Ka.png',1)
     update_weather +=1
     unicornhathd.show()
     #unicornhathd.off()
